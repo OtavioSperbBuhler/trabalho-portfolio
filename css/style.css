@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(0,146,62);
+}
+
+header{
+    height: 108px;
+    background-color: rgb(248, 193, 0);
+    float: none;
+    width: 100%;
+}
+
+header div{
+    width: 100%;
+    float: left;
+}
+
+#primeiro{
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+#logo img{
+    padding-top: 0px;
+    padding-left: 44%;
+    height: 160px;
+}
+
+#titulo{
+    color: black;
+    text-align: center;
+}
+
+nav{
+    height: 38px;
+    background-color: rgb(40, 22, 111);
+    padding: 15px 0px 15px 0px;
+    width: 100%;
+    float: left;
+    border: 3px solid black;
+    border-radius: 16px;
+}
+
+nav ul{
+    list-style: none;
+    margin-top: 6px;
+}
+
+nav ul li{
+    display: inline;
+    margin-top: 5px;
+}
+
+nav ul li a{
+    font-size: 24px;
+    text-decoration: none;
+    margin-left: 120px;
+    color: white;
+    padding: 22px;
+}
+
+nav ul li a:hover{
+    background-color: black;
+    color: rgb(248, 193, 0);
+}
+
+.imagem{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 29px;
+}
+
+.imagem img{
+    width: 50%;
+    border: 3px solid black;
+}
+
+#sn{
+    text-align: center;
+    color: rgb(248, 193, 0);
+    padding-top: 44%;
+    text-shadow: 0.2em 0.2em 0.1em black;
+}
+
+#texto{
+    text-align: justify;
+    padding: 10px 15px 10px 15px;
+}
+
+#na{
+    text-align: center;
+    color: rgb(248, 193, 0);
+    padding-top: 10px;
+    text-shadow: 0.2em 0.2em 0.1em black;
+}
+
+main{
+    padding-top: 10px;
+    float: left;
+    width: 100%;
+    padding-left: 5%;
+    text-align: center;
+}
+
+main div{
+    width: 100%;
+    margin: auto;
+}
+
+.imagens{
+    width: 30%;
+    float: left;
+    margin: 5px;
+}
+
+.imagens img{
+    width: 30%;
+    border: 3px solid rgb(248, 193, 0);
+    border-radius: 50%;
+    box-shadow: 10px 5px 15px black;
+}
+
+#informações{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 7px;
+}
+
+footer{
+    width: 100%;
+    float: left;
+    background-color: rgb(40, 22, 111);
+    color: #000000;
+    border: 3px solid black;
+}
+footer p{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+}
